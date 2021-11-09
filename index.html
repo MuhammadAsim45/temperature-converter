@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 class="heading">temperature converter</h1>
+    <div class="container">
+      <input type="number" name="" id="input" placeholder="enter temperature" />
+      <div class="radio">
+        <span class="temp">FROM</span>
+        <div id="to_radio">
+          <span class="temp">calcius</span>
+          <input type="radio" name="F_temp" id="F_calcius" />
+          <span class="temp">fahrenhiet</span>
+          <input type="radio" name="F_temp" id="F_fahrenhiet" />
+          <span class="temp">kelvin</span>
+          <input type="radio" name="F_temp" id="F_kelvin" />
+        </div>
+      </div>
+
+      <div class="radio">
+        <span class="temp">TO </span>
+        <div id="to_radio">
+          <span class="temp">calcius</span>
+          <input type="radio" name="temp" id="calcius" />
+          <span class="temp">fahrenhiet</span>
+          <input type="radio" name="temp" id="fahrenhiet" />
+          <span class="temp">kelvin</span>
+          <input type="radio" name="temp" id="kelvin" />
+        </div>
+      </div>
+      <button class="convert">convert</button>
+      <h1><p class="answer"></p></h1>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
